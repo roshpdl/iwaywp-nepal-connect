@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "IWA YWP Nepal" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "IWA Young Water Professionals Nepal Chapter" },
+      { name: "description", content: "A professional, responsive website for IWA YWP Nepal, empowering young water professionals in Nepal." },
+      { property: "og:description", content: "A professional, responsive website for IWA YWP Nepal, empowering young water professionals in Nepal." },
+      { name: "twitter:description", content: "A professional, responsive website for IWA YWP Nepal, empowering young water professionals in Nepal." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b1153c17-610d-4076-8d2e-5d88157d5df6/id-preview-549a3719--e74cf576-a9ae-4960-90a3-ebbfba1e7420.lovable.app-1778938922975.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b1153c17-610d-4076-8d2e-5d88157d5df6/id-preview-549a3719--e74cf576-a9ae-4960-90a3-ebbfba1e7420.lovable.app-1778938922975.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
