@@ -60,7 +60,7 @@ export function Header() {
 
         <div className="hidden lg:block">
           <Button asChild>
-            <Link to="/membership">Join YWP</Link>
+            <a href="https://forms.gle/eh4eFChSN2mGUi1x8" target="_blank" rel="noreferrer">Join YWP</a>
           </Button>
         </div>
 
@@ -96,7 +96,7 @@ export function Header() {
                 );
               })}
               <Button asChild className="mt-3">
-                <Link to="/membership">Join YWP</Link>
+                <a href="https://forms.gle/eh4eFChSN2mGUi1x8" target="_blank" rel="noreferrer">Join YWP</a>
               </Button>
             </div>
           </SheetContent>
