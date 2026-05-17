@@ -61,7 +61,7 @@ function MembershipPage() {
                   The chapter is focused on inclusion and access. Join the community, stay informed, and participate in activities while growing your connection to the wider water sector.
                 </p>
                 <Button asChild className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90">
-                  <a href="#" target="_blank" rel="noreferrer">
+                  <a href="https://forms.gle/eh4eFChSN2mGUi1x8" target="_blank" rel="noreferrer">
                     Open membership form
                   </a>
                 </Button>
