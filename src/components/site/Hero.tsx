@@ -37,12 +37,14 @@ export function Hero() {
               climate resilience, research, utilities, and water governance.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                to="/membership"
+              <a
+                href="https://forms.gle/eh4eFChSN2mGUi1x8"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground shadow-elegant transition-transform hover:-translate-y-0.5"
               >
                 Join YWP
-              </Link>
+              </a>
               <Link
                 to="/events"
                 className="inline-flex min-h-11 items-center justify-center rounded-md border border-white/30 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/16"
